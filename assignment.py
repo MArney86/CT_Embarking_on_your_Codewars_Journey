@@ -1,4 +1,4 @@
-#Task 2 Even or Odd
+#Task 1 Even or Odd
 
 def even_or_odd(number):
     if number % 2 == 0:
@@ -11,7 +11,12 @@ def even_or_odd(number):
 def number_to_string(num):
     return str(num)
 
-#Task 3 Vowel Count
+#Task 3 Remove String Spaces
+
+def no_space(x):
+    return("".join(x.strip().split()))
+
+#Task 4 Vowel Count
 
 def get_count(sentence):
     vowel_repo = "aeiou"
